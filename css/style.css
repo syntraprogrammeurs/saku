@@ -1,0 +1,330 @@
+/*1.GENERAL CSS*/
+*{
+    box-sizing:border-box;
+}
+
+/* WIDTH */
+
+
+/* MARGINS EN PADDINGS */
+
+/*2.COLORS*/
+.text-white{
+    color:#fff;
+}
+
+/*3.FONTS */
+/*3a.font-face en font classes*/
+@font-face {
+    font-family: karlabold;
+    src: url('../fonts/Karla-Bold.ttf');
+}
+@font-face{
+    font-family: worksansbold;
+    src:url('../fonts/WorkSans-Bold.ttf');
+}
+@font-face{
+    font-family: worksanslight;
+    src:url('../fonts/WorkSans-Light.ttf');
+}
+@font-face{
+    font-family: karlaregular;
+    src:url('../fonts/Karla-Regular.ttf');
+}
+/*3b.font-size*/
+.karlabold{
+    font-family:karlabold;
+}
+.worksansbold{
+    font-family:worksansbold;
+}
+.worksanslight{
+    font-family:worksanslight;
+}
+.karlaregular{
+    font-family:karlaregular;
+}
+
+/*3c.letter-spacing*/
+
+/* POSITIONING CSS*/
+/* Display Flex */
+.d-flex {
+    display: flex;
+}
+
+.d-inline-flex {
+    display: inline-flex;
+}
+
+/* Flex Direction */
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-column-reverse {
+    flex-direction: column-reverse;
+}
+
+/* Flex Wrap */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+/* Justify Content */
+.justify-content-start {
+    justify-content: flex-start;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+/* Align Items */
+.align-items-start {
+    align-items: flex-start;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-baseline {
+    align-items: baseline;
+}
+
+.align-items-stretch {
+    align-items: stretch;
+}
+
+/* Align Content */
+.align-content-start {
+    align-content: flex-start;
+}
+
+.align-content-end {
+    align-content: flex-end;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.align-content-between {
+    align-content: space-between;
+}
+
+.align-content-around {
+    align-content: space-around;
+}
+
+.align-content-stretch {
+    align-content: stretch;
+}
+
+/* Align Self */
+.align-self-auto {
+    align-self: auto;
+}
+
+.align-self-start {
+    align-self: flex-start;
+}
+
+.align-self-end {
+    align-self: flex-end;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.align-self-baseline {
+    align-self: baseline;
+}
+
+.align-self-stretch {
+    align-self: stretch;
+}
+
+/* Order */
+.order-first {
+    order: -1;
+}
+
+.order-last {
+    order: 13;
+}
+
+.order-0 {
+    order: 0;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-3 {
+    order: 3;
+}
+
+.order-4 {
+    order: 4;
+}
+
+.order-5 {
+    order: 5;
+}
+
+.order-6 {
+    order: 6;
+}
+
+.order-7 {
+    order: 7;
+}
+
+.order-8 {
+    order: 8;
+}
+
+.order-9 {
+    order: 9;
+}
+
+.order-10 {
+    order: 10;
+}
+
+.order-11 {
+    order: 11;
+}
+
+.order-12 {
+    order: 12;
+}
+/* Grow and Shrink */
+.flex-grow-0 {
+    flex-grow: 0;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.flex-shrink-0 {
+    flex-shrink: 0;
+}
+
+.flex-shrink-1 {
+    flex-shrink: 1;
+}
+
+/* TEXT */
+.text-center{
+    text-align:center;
+}
+.text-decoration-none{
+    text-decoration:none;
+}
+.list-style-none{
+    list-style-type: none;
+}
+
+/* BODY */
+body{
+    width:1920px;
+    margin:0;
+}
+#bgheader{
+    background:url('../img/head.png') no-repeat;
+}
+#logoandnav{
+    width:730px;
+}
+nav{
+    width:1175px;
+    margin:0 auto;
+}
+/* Stijl voor de dropdown-knop */
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'worksansbold';
+    padding: 10px 20px;
+    outline: none;
+}
+
+/* Dropdown-inhoud (verborgen standaard) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 385px;
+    top:50px;
+    background-color: white;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+/* Links binnen de dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'worksansregular';
+}
+
+/* Links veranderen van kleur bij hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Toon de dropdown-inhoud bij hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
