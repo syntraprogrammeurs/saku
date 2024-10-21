@@ -10,9 +10,10 @@
 	<title>Document</title>
 </head>
 <body>
+<header>
 	<section id="bgheader">
 		<nav class="d-flex">
-<!--			dit is mijn logo and linker navigatie-->
+			<!--			dit is mijn logo and linker navigatie-->
 			<div id="logoandnav" class="d-flex">
 				<a href="index.html">
 					<img src="./img/logo01@2x.png" alt="logo saku" width="150" height="auto">
@@ -25,7 +26,7 @@
 					<li><a class="text-white text-decoration-none" href="#">Contact</a></li>
 				</ul>
 			</div>
-<!--			dit is mijn dropdown naast de navigatie-->
+			<!--			dit is mijn dropdown naast de navigatie-->
 			<div id="dropdown" class="d-flex flex-grow-1 justify-content-end">
 				<button class="dropbtn">Eng &#9662;</button>
 				<div class="dropdown-content">
@@ -33,12 +34,37 @@
 					<a href="#">Nl</a>
 				</div>
 			</div>
-<!--			dit is het icoontje naast de dropdown-->
+			<!--			dit is het icoontje naast de dropdown-->
 			<div class="d-flex align-items-center ">
 				<i class="fa-regular fa-circle-user fa-2xl text-white"></i>
 			</div>
 		</nav>
+		<article id="hero" class="d-flex">
+			<div class="d-flex flex-column text-white">
+				<h1 class="worksansbold fs-3">Take Control of your business success.</h1>
+				<h2 class="worksanslight fs-2">Get Connected</h2>
+				<p class="karlaregular fs-1">We are design agency in keeping creative design and marketing a straight forward affaire
+				<div id="headerbuttons" class="d-flex">
+					<a href="" class="btnheader karlaregular fs-1 text-white text-decoration-none me-3">
+						Services here
+					</a>
+					<a href="" class="btnheader karlaregular fs-1 text-white text-decoration-none">
+						Discover me
+					</a>
+				</div>
+				<div id="scrollbuttons">
+					<a href="" class="scrollbuttons karlaregular fs-1 text-white text-decoration-none">&lt;</a>
+					<a href="" class="scrollbuttons karlaregular fs-1 text-white text-decoration-none">&gt;</a>
+				</div>
+			</div>
+			
+			<img src="./img/banner-img1.png" alt="hero image people pc">
+		
+		</article>
 	</section>
+</header>
+	
+
 	<script>
 		// Script om de dropdown te laten werken bij een klik
 		document.addEventListener('DOMContentLoaded', function () {

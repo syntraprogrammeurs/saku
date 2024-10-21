@@ -7,7 +7,15 @@
 
 
 /* MARGINS EN PADDINGS */
-
+.me-1{
+    margin-right:4px;
+}
+.me-2{
+    margin-right:8px;
+}
+.me-3{
+    margin-right:16px;
+}
 /*2.COLORS*/
 .text-white{
     color:#fff;
@@ -44,7 +52,16 @@
 .karlaregular{
     font-family:karlaregular;
 }
+.fs-1{
+    font-size:17px;
+}
 
+.fs-2{
+    font-size:44px;
+}
+.fs-3{
+    font-size:62px;
+}
 /*3c.letter-spacing*/
 
 /* POSITIONING CSS*/
@@ -282,7 +299,7 @@ body{
 #logoandnav{
     width:730px;
 }
-nav{
+nav, #hero{
     width:1175px;
     margin:0 auto;
 }
@@ -327,4 +344,32 @@ nav{
 /* Toon de dropdown-inhoud bij hover */
 .dropdown:hover .dropdown-content {
     display: block;
+}
+#headerbuttons{
+    margin-bottom:200px;
+    margin-top:20px;
+}
+.btnheader{
+    padding:10px 20px;
+    background: linear-gradient(90deg, #94e69a, #17adc9);
+    border-radius:50px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+#scrollbuttons{
+
+}
+.scrollbuttons{
+    border-radius:50%;
+    border:2px solid #fff;
+    padding: 10px 15px;
+    font-size:20px;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+}
+.scrollbuttons:hover{
+    background: rgba(255,255,255,0.1);
+    border-color:#fff;
+    box-shadow: 0 0 15px rgba(255,255,255,0.5);
+    color: #b152e4;
+    transform:scale(1.1);
 }
